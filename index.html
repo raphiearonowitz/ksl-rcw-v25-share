@@ -28,7 +28,7 @@
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { background: var(--bg1); }
+  html { background: #000; }
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background: var(--bg1);
@@ -170,7 +170,7 @@
   .review-text { font-size: 15px; font-weight: 400; color: var(--text2); line-height: 1.45; margin-bottom: 8px; }
   .review-text.clamped { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .review-text.clamped .review-more-copy { display: none; }
-  .verified-badge { font-size: 10px; color: #4ade80; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; }
+  .verified-badge { font-size: 10px; color: var(--ksl-gold); font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; }
   .inline-expander { color: #FFFFFF; font-size: 13px; font-weight: 600; cursor: pointer; text-decoration: none; }
   .extra-reviews { display: none; }
   .extra-reviews.is-open { display: grid; gap: 10px; }
@@ -244,14 +244,14 @@
 </svg>
 
 <!-- CONTEST BANNER (v2 blue gradient + gold shimmer) -->
-<a class="contest-banner" href="#contest" aria-label="Contest entry preview (no navigation in share build)">
+<a class="contest-banner" href="https://www.ksl.com" style="text-decoration:none;">
   <span class="contest-text">Enter for a Chance to Win <span class="shimmer-gold">$1,000</span></span>
   <span style="font-size:18px; color:var(--ksl-gold); line-height:1; margin-left:2px;">›</span>
 </a>
 
 <!-- BRAND HEADER (compact, v2.3 sizing) -->
 <header class="brand-header">
-  <img class="brand-logo" src="./assets/images/RCW_Logo_PRIMARY_RBG.png" alt="RC Willey logo">
+  <img class="brand-logo" src="RCW_Logo_PRIMARY_RBG.png" alt="RC Willey logo">
 </header>
 
 <!-- CTA SECTION -->
@@ -267,7 +267,7 @@
 <!-- SEASONAL/PROMO BANNER (lifestyle image + overlay, below quick actions, above reviews) -->
 <section class="content-section" aria-label="Seasonal promotion">
   <div class="promo-banner-wrap">
-    <img class="promo-banner" src="./assets/images/brandHeroByRoom~1200.webp" alt="RC Willey lifestyle furniture showroom">
+    <img class="promo-banner" src="brandHeroByRoom~1200.webp" alt="RC Willey lifestyle furniture showroom">
     <div class="promo-overlay">
       <div class="promo-headline">Memorial Day Sale</div>
       <div class="promo-sub">Seasonal savings on furniture, appliances, mattresses & more</div>
